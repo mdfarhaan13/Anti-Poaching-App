@@ -1,0 +1,86 @@
+description: Ultralytics best model trained on /content/yolo_dataset/data.yaml
+author: Ultralytics
+date: '2026-04-18T22:55:07.243703'
+version: 8.4.27
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: Animal body parts
+  1: Antelope
+  2: Badger
+  3: Bat
+  4: Bear
+  5: Bison
+  6: Boar
+  7: Chimpanzee
+  8: Coyote
+  9: Deer
+  10: Dog
+  11: Donkey
+  12: Duck
+  13: Eagle
+  14: Elephant
+  15: Flamingo
+  16: Fox
+  17: Goat
+  18: Goose
+  19: Gorilla
+  20: Gun
+  21: Hare
+  22: Hedgehog
+  23: Hippopotamus
+  24: Hornbill
+  25: Horse
+  26: Humming Bird
+  27: Hunter
+  28: Hyena
+  29: Jeep
+  30: Kangaroo
+  31: Koala
+  32: Leopard
+  33: Lion
+  34: Lizard
+  35: Mouse
+  36: Okapi
+  37: Orangutan
+  38: Otter
+  39: Owl
+  40: Ox
+  41: Panda
+  42: Parrot
+  43: Pig
+  44: Pigeon
+  45: Poacher
+  46: Porcupine
+  47: Possum
+  48: Raccoon
+  49: Reindeer
+  50: Rifle
+  51: Rinoceros
+  52: Sandpiper
+  53: Sheep
+  54: Snake
+  55: Sparrow
+  56: Squirrel
+  57: Tiger
+  58: Turkey
+  59: Vehicle
+  60: Wolf
+  61: Wombat
+  62: Woodpecker
+  63: X-Bow
+  64: Zebra
+args:
+  batch: 1
+  fraction: 1.0
+  half: false
+  int8: false
+  nms: false
+channels: 3
+end2end: false
