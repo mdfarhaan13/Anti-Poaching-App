@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1B5E20</color> <!-- Forest Green -->
+    <color name="colorAccent">#8BC34A</color> <!-- Light Green -->
+    <color name="background">#F5F5F5</color>
+    <color name="success">#2E7D32</color>
+    <color name="danger">#C62828</color>
+    <color name="textPrimary">#212121</color>
+</resources>

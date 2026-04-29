@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WildGuard</string>
+    <string name="browse_video">Browse Video</string>
+    <string name="start_detection">Start Detection</string>
+    <string name="start_real_time_detection">Start Real-Time Detection</string>
+    <string name="status_initial">Please select a video file or start webcam</string>
+</resources>

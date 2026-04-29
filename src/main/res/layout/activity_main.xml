@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <!-- Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ANTI POACHING DETECTION"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Body -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="20dp">
+
+        <Button
+            android:id="@+id/btnBrowseVideo"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="@string/browse_video"
+            android:backgroundTint="@color/success"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/btnStartVideo"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="@string/start_detection"
+            android:backgroundTint="@color/colorAccent"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/btnStartCamera"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="@string/start_real_time_detection"
+            android:backgroundTint="@color/danger"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:id="@+id/tvVideoPath"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/textPrimary"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/status_initial"
+            android:textColor="#006400"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <!-- Footer -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#DDDDDD"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Developed by Mohamed | Wildlife Protection"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+    </LinearLayout>
+</LinearLayout>
