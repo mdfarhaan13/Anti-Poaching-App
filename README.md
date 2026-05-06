@@ -24,7 +24,7 @@ git --version
 git clone https://github.com/mdfarhaan13/Anti-Poaching-App.git
 cd Anti-Poaching-App
 
-#### Create Virtual Environment (Recommended)
+#### Step 2: Create Virtual Environment (Recommended)
 
 python -m venv venv
 venv\Scripts\activate
